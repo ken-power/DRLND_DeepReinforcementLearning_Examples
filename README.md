@@ -1,2 +1,1 @@
-# DRLND_DeepReinforcementLearning_Examples
-Deep Reinforcement Learning
+# Deep Reinforcement Learning
