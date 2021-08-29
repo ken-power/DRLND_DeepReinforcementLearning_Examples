@@ -7,10 +7,10 @@
 
 ![Trained Agents][image_trained_agents]
 
-This repository contains tutorials and examples from Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
+This repository contains tutorials and examples I implemented and worked through as part of Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
 
 
-The tutorials lead you through implementing various algorithms in reinforcement learning.  All of the code is in PyTorch (v0.4) and Python 3.
+The tutorials implement various algorithms in reinforcement learning.  All the code is in the latest version of PyTorch (currently version 1.9) and Python 3 (currently version 3.9.6).
 
 * [Dynamic Programming](dynamic-programming): Implement Dynamic Programming algorithms such as Policy Evaluation, Policy Improvement, Policy Iteration, and Value Iteration. 
 * [Monte Carlo](monte-carlo): Implement Monte Carlo methods for prediction and control. 
@@ -30,27 +30,27 @@ The tutorials lead you through implementing various algorithms in reinforcement 
 
 ### Resources
 
-* [Cheatsheet](cheatsheet): You are encouraged to use [this PDF file](https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf) to guide your study of reinforcement learning. 
+* [Cheatsheet](cheatsheet): Udacity provide [this useful PDF file](cheatsheet/cheatsheet.pdf) with formulae and algorithms that help with understanding reinforcement learning. 
 
 ## OpenAI Gym Benchmarks
 
 ### Classic Control
-- `Acrobot-v1` with [Tile Coding](https://github.com/udacity/deep-reinforcement-learning/blob/master/tile-coding/Tile_Coding_Solution.ipynb) and Q-Learning  
-- `Cartpole-v0` with [Hill Climbing](https://github.com/udacity/deep-reinforcement-learning/blob/master/hill-climbing/Hill_Climbing.ipynb) | solved in 13 episodes
-- `Cartpole-v0` with [REINFORCE](https://github.com/udacity/deep-reinforcement-learning/blob/master/reinforce/REINFORCE.ipynb) | solved in 691 episodes 
-- `MountainCarContinuous-v0` with [Cross-Entropy Method](https://github.com/udacity/deep-reinforcement-learning/blob/master/cross-entropy/CEM.ipynb) | solved in 47 iterations
-- `MountainCar-v0` with [Uniform-Grid Discretization](https://github.com/udacity/deep-reinforcement-learning/blob/master/discretization/Discretization_Solution.ipynb) and Q-Learning | solved in <50000 episodes
-- `Pendulum-v0` with [Deep Deterministic Policy Gradients (DDPG)](https://github.com/udacity/deep-reinforcement-learning/blob/master/ddpg-pendulum/DDPG.ipynb)
+- `Acrobot-v1` with [Tile Coding](tile-coding/Tile_Coding_Solution.ipynb) and Q-Learning  
+- `Cartpole-v0` with [Hill Climbing](hill-climbing/Hill_Climbing.ipynb) | solved in 13 episodes
+- `Cartpole-v0` with [REINFORCE](reinforce/REINFORCE.ipynb) | solved in 691 episodes 
+- `MountainCarContinuous-v0` with [Cross-Entropy Method](cross-entropy/CEM.ipynb) | solved in 47 iterations
+- `MountainCar-v0` with [Uniform-Grid Discretization](discretization/Discretization_Solution.ipynb) and Q-Learning | solved in <50000 episodes
+- `Pendulum-v0` with [Deep Deterministic Policy Gradients (DDPG)](ddpg-pendulum/DDPG.ipynb)
 
 ### Box2d
-- `BipedalWalker-v2` with [Deep Deterministic Policy Gradients (DDPG)](https://github.com/udacity/deep-reinforcement-learning/blob/master/ddpg-bipedal/DDPG.ipynb)
+- `BipedalWalker-v2` with [Deep Deterministic Policy Gradients (DDPG)](ddpg-bipedal/DDPG.ipynb)
 - `CarRacing-v0` with **Deep Q-Networks (DQN)** | _Coming soon!_
-- `LunarLander-v2` with [Deep Q-Networks (DQN)](https://github.com/udacity/deep-reinforcement-learning/blob/master/dqn/solution/Deep_Q_Network_Solution.ipynb) | solved in 1504 episodes
+- `LunarLander-v2` with [Deep Q-Networks (DQN)](dqn/solution/Deep_Q_Network_Solution.ipynb) | solved in 1504 episodes
 
 ### Toy Text
-- `FrozenLake-v0` with [Dynamic Programming](https://github.com/udacity/deep-reinforcement-learning/blob/master/dynamic-programming/Dynamic_Programming_Solution.ipynb)
-- `Blackjack-v0` with [Monte Carlo Methods](https://github.com/udacity/deep-reinforcement-learning/blob/master/monte-carlo/Monte_Carlo_Solution.ipynb)
-- `CliffWalking-v0` with [Temporal-Difference Methods](https://github.com/udacity/deep-reinforcement-learning/blob/master/temporal-difference/Temporal_Difference_Solution.ipynb)
+- `FrozenLake-v0` with [Dynamic Programming](dynamic-programming/Dynamic_Programming_Solution.ipynb)
+- `Blackjack-v0` with [Monte Carlo Methods](monte-carlo/Monte_Carlo_Solution.ipynb)
+- `CliffWalking-v0` with [Temporal-Difference Methods](temporal-difference/Temporal_Difference_Solution.ipynb)
 
 ## Dependencies
 
