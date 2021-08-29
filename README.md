@@ -2,10 +2,10 @@
 
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135602-b0335606-7d12-11e8-8689-dd1cf9fa11a9.gif "Trained Agents"
-[image2]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Kernel"
+[image_trained_agents]: images/trained_agents.gif "Trained Agents"
+[image_kernel]: images/set_kernel_in_jupyter.png "Set Kernel in Jupyter"
 
-![Trained Agents][image1]
+![Trained Agents][image_trained_agents]
 
 This repository contains tutorials and examples from Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
 
@@ -87,4 +87,4 @@ python -m ipykernel install --user --name DRLND --display-name "DRLND"
 
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][image2]
+![Kernel][image_kernel]
