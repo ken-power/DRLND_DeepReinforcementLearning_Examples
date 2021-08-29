@@ -60,13 +60,13 @@ To set up your python environment to run the code in this repository, follow the
 
 	- __Linux__ or __Mac__: 
 	```bash
-	conda create --name drlnd python=3.6
-	source activate drlnd
+	conda create --name DRLND python=3.6
+	source activate DRLND
 	```
 	- __Windows__: 
 	```bash
-	conda create --name drlnd python=3.6 
-	activate drlnd
+	conda create --name DRLND python=3.6 
+	activate DRLND
 	```
 	
 2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
@@ -80,11 +80,11 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 
-4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `DRLND` environment.  
 ```bash
 python -m ipykernel install --user --name DRLND --display-name "DRLND"
 ```
 
-5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+5. Before running code in a notebook, change the kernel to match the `DRLND` environment by using the drop-down `Kernel` menu. 
 
 ![Kernel][image_kernel]
