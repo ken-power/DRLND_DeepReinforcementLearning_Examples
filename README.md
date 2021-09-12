@@ -49,7 +49,7 @@ The tutorials implement various algorithms in reinforcement learning.  All the c
 
 ### Toy Text
 - `FrozenLake-v0` with [Dynamic Programming](dynamic-programming/Dynamic_Programming_Solution.ipynb)
-- `Blackjack-v0` with [Monte Carlo Methods](monte-carlo/Monte_Carlo_Solution.ipynb)
+- `Blackjack-v0` with [Monte Carlo Methods](monte-carlo/Monte_Carlo_Blackjack.ipynb)
 - `CliffWalking-v0` with [Temporal-Difference Methods](temporal-difference/Temporal_Difference_Solution.ipynb)
 
 ## Dependencies
