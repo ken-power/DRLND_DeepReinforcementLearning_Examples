@@ -6,13 +6,11 @@
 
 ### Instructions
 
-Follow the instructions in `Discretization.ipynb` to learn how to discretize continuous state spaces, to use tabular solution methods to solve complex tasks. The corresponding solutions can be found in `Discretization_Solution.ipynb`.
-
-### Results
+[Discretization_MountainCar.ipynb](Discretization_MountainCar.ipynb) shows how to discretize continuous state spaces, to use tabular solution methods to solve complex tasks. 
 
 ![Trained Agent][image1]
 
-### Resources
+### References
 
 To learn about more advanced discretization approaches, refer to the following:
 
