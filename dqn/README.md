@@ -12,6 +12,8 @@ In this exercise, you will implement Deep Q-Learning to solve OpenAI Gym's Lunar
 
 After you are able to get the code working, try to change the parameters in the notebook, to see if you can get the agent to train faster!  You may also like to implement prioritized experience replay, or use it as a starting point to implement a Double DQN or Dueling DQN!
 
+
+
 ### Results
 
 ![Trained Agent][image1]
